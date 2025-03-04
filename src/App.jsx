@@ -63,7 +63,7 @@ function App() {
         await updateSearchCount(query, data.results[0]);
       }
 
-      updateSearchCount();
+     
     } catch (error) {
       console.error(`Error fetching movies: ${error}`);
       setErrorMessage("Error fetching movie. Please try again laters");
